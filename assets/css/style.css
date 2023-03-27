@@ -229,7 +229,8 @@ h1::after {
     }
 
     .aboutus-div img {
-        border: 10px double #fff;
+        background-color: #fff;
+        border: 2px double #fff;
     }
 
 /*=====================================
@@ -268,7 +269,22 @@ h1::after {
     color:#fff;
     font-size:15px;
 }
-.email:hover{
-    color:#1A94C4;
+.link{
     text-decoration: underline;
+}
+    .link:hover{
+        color:#1A94C4;
+        text-decoration: none;
+    }
+
+.faq{
+    
+}
+    .faq h4{
+        color:#1abec4;
+        font-weight: bold;
+    }
+
+.socialmedia{
+    text-align: center;
 }
