@@ -281,10 +281,42 @@ h1::after {
     
 }
     .faq h4{
-        color:#1abec4;
+        color:#dddeeb;
         font-weight: bold;
     }
 
 .socialmedia{
     text-align: center;
 }
+
+/* SPONSORS SECTION START */
+.sponsors-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 15px;
+  }
+  
+  .sponsor {
+    flex: 1 1 auto;
+    margin: 20px;
+  }
+  
+  .sponsor img {
+    max-width: 150px;
+    height: 65px;
+  }
+  
+  @media (max-width: 768px) {
+    .sponsors-container {
+      flex-wrap: wrap;
+    }
+  
+    .sponsor {
+      flex-basis: calc(100% / 3 - 40px);
+      margin: 10px;
+    }
+  }
+/* SPONSORS SECTION END */
