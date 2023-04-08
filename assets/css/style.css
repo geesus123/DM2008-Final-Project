@@ -320,3 +320,51 @@ h1::after {
     }
   }
 /* SPONSORS SECTION END */
+/* BLOG SECTION START */
+.blog-post {
+    padding-top: 20px;
+    margin: 40px auto;
+  }
+  
+  .blog-post img {
+    margin: 20px 40px 0 40px;
+    max-width: 35%;
+    float: left;
+    width: 300px;
+    height: 260px;
+    border-radius: 10px;
+  }
+  .blog-text{
+    margin: 0 40px 40px 40px;
+  }
+  
+  @media (max-width: 768px) {
+    .blog-post{
+        text-align: center;
+    }
+    
+    .blog-post img {
+        float: none;
+        max-width: 100%;
+        min-width: 250px;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        
+    }
+    .blog-text{
+        margin: 20px;
+    }
+  }
+.blogheader hr{
+    border: 1px solid #000000;
+}
+.timestamp {
+    display: inline-block;
+    align-items: center;
+}
+  
+  .timestamp i {
+    margin-right: 5px;
+}
+/* BLOG SECTION END */
