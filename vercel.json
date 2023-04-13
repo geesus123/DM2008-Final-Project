@@ -1,12 +1,9 @@
 {
     "headers": [
       {
-        "source": "**/*.gz",
+        "source": "/projects/Build/*.gz",
         "headers": [
-          {
-            "key": "Content-Type",
-            "value": "application/gzip"
-          }
+          { "key": "Content-Encoding", "value": "gzip" }
         ]
       }
     ]
