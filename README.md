@@ -1,7 +1,7 @@
 ---
-name: Website for SSIA-NTU Student Branch.
+name: Final Project for DM2008.
 # HTML Starter
 
-This is a starter HTML5 templates which is configured with Vercel Analytics (through a `script` tag), advanced routing with [Vercel Edge Middleware](https://vercel.com/docs/concepts/functions/edge-middleware), as well as some basic styles
+I have created a HTML and CSS code repository for my DM2008 Final Project, which is a website for a pseudo club in NTU. The website features several informational components such as 'about us', 'our sponsors', 'projects', 'blog', and more.
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/solutions/html&project-name=html)
